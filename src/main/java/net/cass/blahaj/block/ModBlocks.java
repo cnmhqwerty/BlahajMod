@@ -19,7 +19,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks{
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-    public static final Block BLAHAJ = registerBlock("blahaj", new Block(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_WOOL)));
+    public static final Block BLAHAJ = registerBlock("blahaj", new Block(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_WOOL).nonOpaque()));
     private static void addBlocksToColourItemGroup(FabricItemGroupEntries entries){entries.add(BLAHAJ);}
 
     private static Block registerBlock(String name, Block block){

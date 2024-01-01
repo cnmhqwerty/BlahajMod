@@ -13,7 +13,7 @@ public class Blahaj implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
+		//ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
