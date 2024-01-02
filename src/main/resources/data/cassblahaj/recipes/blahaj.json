@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "pb ",
+    "bb ",
+    "  b"
+  ],
+  "key": {
+    "b":{
+  "item": "minecraft:light_blue_wool"
+  },
+    "p":{
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "cassblahaj:blahaj"
+  }
+}
