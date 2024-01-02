@@ -1,6 +1,6 @@
 {
   "variants":{
-    "": {
+    "facing=north": {
     "model": "cassblahaj:block/blahaj"
     },
     "facing=east": {
