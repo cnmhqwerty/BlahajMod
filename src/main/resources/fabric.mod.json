@@ -23,13 +23,16 @@
 		],
 		"fabric-datagen": [
 			"net.cass.blahaj.BlahajDataGenerator"
+		],
+		"rei_client": [
+			"net.cass.blahaj.compat.PlushiesREIClientPlugin"
 		]
 	},
 	"mixins": [
 		"blahaj.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.3",
+		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
